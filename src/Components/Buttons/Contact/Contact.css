@@ -1,0 +1,20 @@
+.flex-buttons {
+    float: right;
+    padding-top: 2.12vh;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.contact-button {
+    color: #828195;
+    text-decoration: none;
+    margin-right: 2.14vw;
+}
+
+.join-button {
+    background-color: #FC9A8D;
+    font-size: 1.25rem;
+    color: white;
+    padding: 1.4588vh 1.0702vw;
+    border: none;
+}

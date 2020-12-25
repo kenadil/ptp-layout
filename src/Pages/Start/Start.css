@@ -1,0 +1,26 @@
+.start-page {
+    text-align: center;
+    margin: 0 11.03vw;
+    padding-top: 6.175vh;
+}
+
+.start-title {
+    max-width: 920px;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #1C1B2F;
+}
+
+.start-description {
+    max-width: 558.71px;
+    font-size: 1.25rem;
+    padding: 2.12vh 0;
+    margin-left: 12.25vw;
+    color: #828195;
+}
+
+.desc-pic {
+    position: absolute;
+    top: 43.76vh;
+    left: 9.7vw;
+}
