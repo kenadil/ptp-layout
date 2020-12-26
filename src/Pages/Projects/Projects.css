@@ -8,6 +8,7 @@
 .proj-background {
     margin-top: -100px;
     background-image: linear-gradient(rgba(239,240,246,1), white);
+    height: 128.5vh;
 }
 
 .card-container {

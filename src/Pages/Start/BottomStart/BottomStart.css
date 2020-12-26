@@ -1,0 +1,17 @@
+.bottom-start {
+    padding: 0 2.5vw;
+    margin: 0 11.03vw;
+    padding-top: 15.1vh;
+}
+
+.bottom-background {
+    background-color: #EFF0F6;
+    background-repeat: no-repeat;
+    background-position: 1.4vw 1.6vh;
+    padding-bottom: 15.1vh;
+}
+
+.bottom-buttons {
+    text-align: center;
+    width: 83.5%;
+}

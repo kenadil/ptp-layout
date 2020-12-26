@@ -1,0 +1,18 @@
+.contact-field {
+    position: relative;
+    left: 15vw;
+}
+
+.contact-list {
+    list-style: none;
+}
+
+.contact-item {
+    margin-top: 0;
+    margin-bottom: 1vh;
+}
+
+.name {
+    margin-bottom: 1.5vh;
+    font-weight: bold;
+}

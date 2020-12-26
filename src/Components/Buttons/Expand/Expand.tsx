@@ -3,7 +3,7 @@ import "./Expand.css";
 
 const Expand = () => {
   return (
-    <button type="button" className="expand">
+    <button type="button" className="expand" onClick={() => alert("В разработке")}>
       View all
     </button>
   );
