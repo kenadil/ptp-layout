@@ -1,27 +1,30 @@
 .start-page {
     text-align: center;
+    margin-right: 11.03vw;
     padding-top: 7.175vh;
-    min-height: 85.838vh;
-    margin: 0 11.03vw;
 }
 
 .start-title {
-    max-width: 920px;
     font-size: 4rem;
     font-weight: 700;
     color: #1C1B2F;
 }
 
 .start-description {
-    max-width: 558.71px;
     font-size: 1.25rem;
-    padding: 2.12vh 0;
-    margin-left: 12.25vw;
+    padding: 16px 0;
+    margin: 0 26vw;
     color: #828195;
 }
 
 .desc-pic {
-    position: absolute;
-    top: 40.76vh;
-    left: 9.7vw;
+    position: relative;
+    bottom: 27.76vh;
+    right: 4.7vw;
+}
+
+@media (max-width: 1100px) {
+    .desc-pic {
+        bottom: 0;
+    }
 }

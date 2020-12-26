@@ -1,0 +1,16 @@
+.rocket {
+    text-align: center;
+    height: 76.81vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rocket-container {
+    position: relative;
+    top: 52.312vh;
+}
+
+.r-description {
+    margin: 0 350px;
+    margin-bottom: 25px;
+}
