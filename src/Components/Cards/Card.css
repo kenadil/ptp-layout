@@ -1,0 +1,27 @@
+.card {
+    width: 17.05vw;
+    min-height: 52.38vh;
+    border-radius: 15px;
+    background: #EFF0F6;
+    margin-right: 2vw;
+    box-shadow: 0 5px 3px 0 rgba(0,0,0,0.2),0 2px 5px 0 rgba(0,0,0,0.19) !important;;
+}
+
+.card-text {
+    padding: 2.122vh 1.07vw;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.proj-img {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+
+.card-description {
+    font-size: 0.9375rem;
+    color: #828195;
+}

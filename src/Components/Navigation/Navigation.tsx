@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useScrollDirection } from "../../Scripts/GoingUp/GoingUp";
 import "./Navigation.css";
 
 const Navigation = () => {
@@ -31,6 +32,17 @@ const Navigation = () => {
     ];
     setNavs(nav);
   }, []);
+
+  const scrollY = useScrollDirection();
+
+  useEffect(() => {
+    if (scrollY < 900)
+      setActive("1");
+    else if (scrollY >= 900 && scrollY < 2000) 
+      setActive("2");
+    else if (scrollY >= 2000)
+      setActive("3");
+  }, [scrollY]);
   return (
     <ul className="navigation">
       {navs.map((e) => (

@@ -1,0 +1,16 @@
+.projects {
+    padding: 0 2.5vw;
+    margin: 0 11.03vw;
+    padding-top: 16vh;
+    min-height: 120vh;
+}
+
+.proj-background {
+    margin-top: -100px;
+    background-image: linear-gradient(rgba(239,240,246,1), white);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+}

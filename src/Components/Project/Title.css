@@ -1,0 +1,16 @@
+.proj-container {
+    text-align: center;
+    margin-bottom: 6.366vh;
+    width: 76.5%;
+}
+
+.checkout {
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: rgba(126, 126, 126, 1);
+}
+
+.proj-title {
+    font-weight: bold;
+    font-size: 3rem;
+}
