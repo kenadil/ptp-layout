@@ -1,0 +1,12 @@
+.a-background {
+    background: rgba(239,240,246,1);
+    margin-top: -30px;
+    height: 132vh;
+    background-repeat: no-repeat;
+    background-position: 75% 30px;
+}
+
+.about {
+    margin: 0 11.03vw;
+    padding-top: 18.7vh;
+}

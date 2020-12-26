@@ -1,0 +1,22 @@
+.navigation {
+    position: fixed;
+    list-style: none;
+    left: 1200px;
+    top: 250px;
+}
+
+.nav-tab {
+    margin-bottom: 50px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #828195;
+    font-weight: 600;
+}
+
+.active {
+    color: #FC9A8D;
+    font-size: 2.25rem;
+}

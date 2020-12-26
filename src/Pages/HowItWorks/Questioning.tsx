@@ -6,7 +6,7 @@ import Rocket from "../../Components/Rocket/Rocket";
 
 const HowWorks = () => {
   return (
-    <div className="background">
+    <div className="background" id="how">
       <div className="how-works">
         <Description />
         <List />
