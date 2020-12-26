@@ -24,4 +24,12 @@
 .card-description {
     font-size: 0.9375rem;
     color: #828195;
+    min-height: 11.007vh;
+}
+
+.more {
+    text-decoration: none;
+    color: #FC9A8D;
+    font-weight: 600;
+    margin: 2.12vh 0;
 }

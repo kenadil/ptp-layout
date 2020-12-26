@@ -5,6 +5,8 @@ import "./Projects.css";
 import one from "../../Services/Card/Rectangle 28.png";
 import two from "../../Services/Card/Rectangle 28 (1).png";
 import three from "../../Services/Card/Rectangle 28 (2).png";
+import Dots from "../../Components/Dots/Dots";
+import Expand from "../../Components/Buttons/Expand/Expand";
 
 const Projects = () => {
   const [cards, setCards] = useState<any[]>([]);
@@ -14,6 +16,7 @@ const Projects = () => {
         title: "Jaxart: Hackathon",
         image: <img src={one} alt="alt" className="proj-img"/>,
         description: "In this case, the role of the health laboratory is very important to do a disease detection...",
+        href: "https://www.youtube.com/watch?v=K4nbKsLiqUQ",
       },
       {
         title: "Biotech",
@@ -30,12 +33,16 @@ const Projects = () => {
   }, []);
   return (
     <div className="proj-background">
-      <div className="projects">
+      <div className="projects" id="projects">
         <Title />
         <div className="card-container">
           {cards.map((e, index) => (
             <Card image={e.image} title={e.title} key={index} description={e.description}/>
           ))}
+        </div>
+        <Dots />
+        <div className="expand-button">
+        <Expand />
         </div>
       </div>
     </div>

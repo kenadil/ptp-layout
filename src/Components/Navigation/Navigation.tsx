@@ -21,7 +21,7 @@ const Navigation = () => {
       },
       {
         title: "Projects",
-        href: "#",
+        href: "#projects",
         key: "4",
       },
       {
@@ -40,8 +40,10 @@ const Navigation = () => {
       setActive("1");
     else if (scrollY >= 900 && scrollY < 2000) 
       setActive("2");
-    else if (scrollY >= 2000)
+    else if (scrollY >= 2000 && scrollY < 2600)
       setActive("3");
+    else if (scrollY >= 2600)
+      setActive("4")
   }, [scrollY]);
   return (
     <ul className="navigation">

@@ -8,6 +8,7 @@ const Card = (props: any) => {
       <div className="card-text">
         <h1 className="card-title">{props.title}</h1>
         <p className="card-description">{props.description}</p>
+        <a className="more" href="https://www.youtube.com/watch?v=eFsK43Dx4oI" target="_blank">Read more →</a>
       </div>
     </div>
   );
