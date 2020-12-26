@@ -1,7 +1,8 @@
 .start-page {
     text-align: center;
+    padding-top: 7.175vh;
+    min-height: 85.838vh;
     margin: 0 11.03vw;
-    padding-top: 6.175vh;
 }
 
 .start-title {
@@ -21,6 +22,6 @@
 
 .desc-pic {
     position: absolute;
-    top: 43.76vh;
+    top: 40.76vh;
     left: 9.7vw;
 }

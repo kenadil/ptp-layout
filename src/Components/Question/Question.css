@@ -1,0 +1,12 @@
+.q-title {
+    font-size: 3rem;
+    margin-bottom: 3.18vh;
+    line-height: 60px;
+}
+
+.q-description {
+    max-width: 550px;
+    font-size: 0.9375rem;
+    padding: 2.12vh 0;
+    color: #828195;
+}

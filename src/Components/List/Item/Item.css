@@ -1,0 +1,18 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2.5vh;
+}
+
+.li-description {
+    max-width: 558.71px;
+    font-size: 1.25rem;
+    padding: 2.12vh 0;
+    margin-left: 3.25vw;
+    color: #828195;
+    width: 200px;
+}
+
+.left-right {
+    margin-left: 11.57vw;
+}
